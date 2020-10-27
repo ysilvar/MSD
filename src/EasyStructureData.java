@@ -97,16 +97,5 @@ public class EasyStructureData<T> {
         }
     }
 
-    public static void main(String[] args) {
-        EasyStructureData<Integer> list = new EasyStructureData<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        EasyStructureData<Integer> list2 = new EasyStructureData<>();
-        list2.add(4);
-        list2.add(5);
-        list2.add(6);
-        list.addAll(list2);
 
-    }
 }
